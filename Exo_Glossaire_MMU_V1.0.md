@@ -14,34 +14,34 @@
 
 ## Général
 
-1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte :
+1.	<b> Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte :</b>
 
-- <b> Il est nécessaire d'avoir un serveur web local qui prend en charge PHP et une base de données.</b>
+- Il est nécessaire d'avoir un serveur web local qui prend en charge PHP et une base de données.
 - Laragon & WampServer
 
-2.	Qu’est-ce qu’un algorithme ?
+2.	<b>Qu’est-ce qu’un algorithme ? </b>
 
 - C'est des instructions pour accomplir une tâche spécifique.
 
-3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
+3.	<b>Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ? </b>
 
 - Une variable est un stockage qui contient une valeur pouvant être modifiée. 
 - Son préfixe est le symbole $.
 
-4.	Qu’est-ce que la portée d’une variable ?
+4.	<b>Qu’est-ce que la portée d’une variable ? </b>
 
 -
 
-5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
+5.	<b>Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ? </b>
 
 - Une constante est une valeur qui ne peut pas être modifiée.
 - Une variable peut être modifiée.
 
-6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation :
+6.	<b>Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation : </b>
 
 -
 
-7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur) :
+7.	<b>Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur) : </b>
 
 - int : $a = 123;
 - float : $b = 12.34;
@@ -49,7 +49,7 @@
 - bool : $d = true;
 - array : $e = array(1, 2, 3);
 
-8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
+8.	<b>Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ? </b>
 
 - Oui,
 
@@ -57,9 +57,9 @@
 - Tableaux associatifs : Pour des chaînes de caractères.
 
 
-9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles :
+9.	<b>Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles : </b>
 
-// Conditionnelle (if, else if, else) : 
+// <b>Conditionnelle (if, else if, else) : </b>
 
 - // if, Else if, else
       ($a > $b) {
@@ -70,7 +70,7 @@
          echo "a est plus petit que b";
     }
 
-// Boucles (for, while, foreach) :
+// <b>Boucles (for, while, foreach) : </b>
 
 - // for
      for ($i = 0; $i < 10; $i++) {
@@ -92,35 +92,35 @@
 
 
 
-10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
+10.	<b>Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ? </b>
 
 
 
-11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
+11.	<b>Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP </b>
 
 
 
-12.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
+12.	<b>Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP </b>
 
 
 
-13.	Quelle est la différence entre les instructions « require » et « include » en PHP
+13.	<b>Quelle est la différence entre les instructions « require » et « include » en PHP </b>
 
 
 
-14.	Comment effectuer une redirection en PHP ?
+14.	<b>omment effectuer une redirection en PHP ? </b>
 
 
 
-15.	Définir la partie « front-end » et « back-end » d’une application
+15.	<b>Définir la partie « front-end » et « back-end » d’une application </b>
 
 
 
-16.	Définir le contrôle de version ? Qu’est-ce que Git ?
+16.	<b>Définir le contrôle de version ? Qu’est-ce que Git ? </b>
 
 
 
-17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
+17.	<b>Qu’est-ce qu’un CMS ? Citer au moins 2 exemples </b>
 
 
 
