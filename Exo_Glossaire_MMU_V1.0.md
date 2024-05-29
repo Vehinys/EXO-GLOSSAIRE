@@ -288,34 +288,34 @@ c. <b>Création, modification et suppression</b>
  
 ## English
 1)	<b> What does JavaScript enable you to do on a website ?</b>
-- a.	Add interactive behavior and dynamic content
+- a.	Add interactive behavior and dynamic content - Reponse A - 
 - b.	Define the layout and design of web pages
 - c.	Handle server-side operations
 2)	<b>Which programming language is primarily used for server-side web development ?</b>
-- a.	PHP
+- a.	PHP - Reponse A - 
 - b.	JavaScript
 - c.	HTML
 3)	<b>What is the purpose of a web browser ?</b>
-- a.	To render and display web pages
+- a.	To render and display web pages - Reponse A - 
 - b.	To execute serve-side code
 - c.	To manage databases
 4)	<b>What is the difference between GET and POST methods in HTTP ?</b>
-- a.	GET retrieves data from a server, while POST submits data to a server
+- a.	GET retrieves data from a server, while POST submits data to a server - Reponse A - 
 - b.	GET submits data to a server, while POST retrieves data from a server
 - c.	GET and POST methods are interchangeable
 5)	<b>What is the purpose of version control systems (e.g., Git) in web development ?</b>
-- a.	To track changes and manage collaborative development
+- a.	To track changes and manage collaborative development - Reponse A - 
 - b.	To optimize website loading speed
 - c.	To handle server-side scripting
 6)	<b>What is the purpose of a framework in web development ?</b>
-- a.	To provide a structured environment for building web applications
+- a.	To provide a structured environment for building web applications - Reponse A - 
 - b.	To handle network protocols and data transfer
 - c.	To create visual designs and layouts for websites
 7)	<b>What does NoSQL stand for ?</b>
-- a.	Not Only SQL
+- a.	Not Only SQL - Reponse A - 
 - b.	Non-Structured Query Language
 - c.	New Object-Oriented Language
 8)	<b>Which of the following is a characteristic of NoSQL databases ?</b>
 - a.	Strict schema enforcement
 - b.	Support for complex transactions
-- c.	Scalability and flexible data models
+- c.	Scalability and flexible data models - Reponse C - 
