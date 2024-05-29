@@ -16,7 +16,7 @@
 
 1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte :
 
-- Il est nécessaire d'avoir un serveur web local qui prend en charge PHP et une base de données.
+- <b> Il est nécessaire d'avoir un serveur web local qui prend en charge PHP et une base de données.</b>
 - Laragon & WampServer
 
 2.	Qu’est-ce qu’un algorithme ?
