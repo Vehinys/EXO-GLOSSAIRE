@@ -183,22 +183,22 @@
 ## Modélisation - Base de données
 67.	<b>Qu’est-ce que la modélisation de données ? Définir la méthode Merise</b>
 68.	<b>Quelles sont les 3 étapes principales de la méthode Merise ? </b>
-a.	// <b>Analyse, conception et réalisation</b>
-b.	// <b>Planification, exécution et contrôle</b>
-c.	// <b>Création, modification et suppression</b>
+a.	// - <b>Analyse, conception et réalisation</b>
+b.	// - <b>Planification, exécution et contrôle</->
+c.	// - <b>Création, modification et suppression</b>
 69.	<b>Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?</b>
 70.	<b>Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?</b>
 71.	<b>Donner la définition des mots suivants :</b>
-a.	// <b>Entité</b>
-b.	// <b>Relation</b>
-c.	// <b>Cardinalité</b>
-d.	// <b>Clé primaire / clé étrangère</b>
+a.	// - <b>Entité</b>
+b.	// - <b>Relation</b>
+c.	// - <b>Cardinalité</b>
+d.	// - <b>Clé primaire / clé étrangère</b>
 72.	<b>Que devient une relation de type « Many To Many » dans le modèle logique de données ?</b>
 73.	<b>Qu’est-ce qu’une base de données ?</b>
 74.	<b>Définir les notions suivantes : </b>
-a.	// <b>SQL :</b>
-b.	// <b>MySQL :</b>
-c.	// <b>SGBD (donner 2 exemples de SGBD) :</b>
+a.	// - <b>SQL :</b>
+b.	// - <b>MySQL :</b>
+c.	// - <b>SGBD (donner 2 exemples de SGBD) :</b>
 75.	<b>Dans une base de données, les données sont stockées dans des ___. Celles-ci sont constituées de lignes appelées ___ et de colonnes appelées ___</b>
 76.	<b>Quelle est la différence entre une base de données relationnelle et non relationnelle ?</b>
 77.	<b>Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?</b>
@@ -207,14 +207,14 @@ c.	// <b>SGBD (donner 2 exemples de SGBD) :</b>
 80.	<b>Quelles sont les fonctions d’agrégation en SQL ?</b>
 81.	<b>Qu’est-ce qu’un CRUD dans le contexte d’une base de données ?</b>
 82.	<b>Quelles sont les clauses qui permettent de :</b>
-a.	// <b>Insérer un nouvel enregistrement dans une table :</b>
-b.	// <b>Modifier un enregistrement dans une table :</b>
-c.	// <b>Supprimer un enregistrement dans une table :</b>
-d.	// <b>Supprimer la base de données :</b>
-e.	// <b>Filtrer les résultats d’une requête SQL :</b>
-f.	// <b>Trier les résultats d’une requête SELECT :</b>
-g.	// <b>Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique :</b>
-h.	// <b>Concaténer 2 chaînes de caractères :</b>
+a.	// - <b>Insérer un nouvel enregistrement dans une table :</b>
+b.	// - <b>Modifier un enregistrement dans une table :</b>
+c.	// - <b>Supprimer un enregistrement dans une table :</b>
+d.	// - <b>Supprimer la base de données :</b>
+e.	// - <b>Filtrer les résultats d’une requête SQL :</b>
+f.	// - <b>Trier les résultats d’une requête SELECT :</b>
+g.	// - <b>Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique :</b>
+h.	// - <b>Concaténer 2 chaînes de caractères :</b>
 83.	<b>Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?</b>
 
 ## Symfony
