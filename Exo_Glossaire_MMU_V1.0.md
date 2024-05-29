@@ -43,13 +43,51 @@
 
 7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
 
-
+- int : $a = 123;
+- float : $b = 12.34;
+- string : $c = "Hello";
+- bool : $d = true;
+- array : $e = array(1, 2, 3);
 
 8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
 
+- Oui,
+
+- Tableaux indexés : Pour des indices numériques.
+- Tableaux associatifs : Pour des chaînes de caractères.
 
 
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
+
+- Conditionnelle (if, else if, else) :
+
+-    if ($a > $b) {
+-       echo "a est plus grand que b";
+-    } elseif ($a == $b) {
+-       echo "a est égal à b";
+-    } else {
+-       echo "a est plus petit que b";
+-    }
+
+- Boucles (for, while, foreach) :
+
+- // for
+-     for ($i = 0; $i < 10; $i++) {
+-        echo $i;
+-     }
+
+- // while 
+-        $i = 0;
+-    while ($i < 10) {
+-        echo $i;
+-        $i++;
+-    }
+
+- // foreach
+-    $arr = array(1, 2, 3, 4);
+-    foreach ($arr as $value) {
+-        echo $value;
+-    }
 
 
 
