@@ -126,6 +126,7 @@
 
 
 ## Front-end
+
 18.	<b>Définir HTML</b>
 19.	<b>Définir CSS</b>
 20.	<b>Définir Javascript</b>
@@ -145,6 +146,7 @@
 34.	<b>Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes</b>
 
 ## UX UI
+
 35.	<b>Quelle est la différence entre UX Design et UI Design ?</b>
 36.	<b>Qu’est-ce qu’un wireframe ? </b>
 37.	<b>Qu’est-ce qu’un prototype ? </b>
@@ -172,6 +174,7 @@
 59.	<b>Qu’est-ce que la sérialisation en PHP ? </b>
 
 ## Architecture 
+
 60.	<b>Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence</b>
 61.	<b>Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern</b>
 62.	<b>Qu’est-ce que l’architecture MVC ?</b>
@@ -181,6 +184,7 @@
 66.	<b>Qu’est-ce qu’une API ? Définir l’architecture REST</b>
 
 ## Modélisation - Base de données
+
 67.	<b>Qu’est-ce que la modélisation de données ? Définir la méthode Merise</b>
 68.	<b>Quelles sont les 3 étapes principales de la méthode Merise ? </b>
 - a. <b>Analyse, conception et réalisation</b>
@@ -218,6 +222,7 @@ c. <b>Création, modification et suppression</b>
 83.	<b>Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?</b>
 
 ## Symfony
+
 84.	<b>Qu’est-ce que Symfony ?</b>
 85.	<b>Sur quel langage de programmation et design pattern repose Symfony ? </b>
 86.	<b>Quelle est la dernière version en date de Symfony ?</b>
@@ -230,6 +235,7 @@ c. <b>Création, modification et suppression</b>
 93.	<b>Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?</b>
 
 ## Sécurité
+
 94.	<b>Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?</b>
 95.	<b>Qu’est-ce que la faille XSS ? Comment s’en prémunir ?</b>
 96.	<b>Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?</b>
@@ -242,6 +248,7 @@ c. <b>Création, modification et suppression</b>
 103. <b>Définir la « validation des entrées »</b>
 
 ## RGPD
+
 104. <b>Qu’est-ce que le RGPD ?</b>
 105. <b>Quel est son objectif principal ?</b>
 106. <b>Quelle est la date d’entrée en vigueur du RGPD ?</b>
@@ -254,6 +261,7 @@ c. <b>Création, modification et suppression</b>
 113. <b>Qu’est-ce que le principe de minimisation des données selon le RGPD ?</b>
 
 ## SEO
+
 114. <b>Qu’est-ce que le SEO ? </b>
 115. <b>Quel est l’objectif principal du SEO ?</b>
 116. <b>Existe-t-il plusieurs types de référencement ? Lesquels ?</b>
@@ -269,6 +277,7 @@ c. <b>Création, modification et suppression</b>
 126. <b>Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?</b>
 
 ## Gestion de projets - DevOps
+
 127. <b>Qu’est-ce que la gestion de projet ? </b>
 128. <b>Qu’est-ce qu’une méthode Agile de gestion de projet ? </b>
 129. <b>Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages</b>
@@ -287,61 +296,59 @@ c. <b>Création, modification et suppression</b>
 142. <b>Qu'est-ce qu'une assertion dans un test unitaire ?</b>
  
 ## English
+
 1)	<b> What does JavaScript enable you to do on a website ?</b> 
 - a.	Add interactive behavior and dynamic content 
 - b.	Define the layout and design of web pages
 - c.	Handle server-side operations
 
-- Réponse : <b>A</b>
+// Réponse : <b>A</b>
 
 2)	<b>Which programming language is primarily used for server-side web development ?</b>
 - a.	PHP 
 - b.	JavaScript
 - c.	HTML
 
-- Réponse : <b>A</b>
-
+// Réponse : <b>A</b>
 
 3)	<b>What is the purpose of a web browser ?</b>
 - a.	To render and display web pages
 - b.	To execute serve-side code
 - c.	To manage databases
 
-- Réponse : <b>A</b>
-
+// Réponse : <b>A</b>
 
 4)	<b>What is the difference between GET and POST methods in HTTP ?</b>
 - a.	GET retrieves data from a server, while POST submits data to a server  
 - b.	GET submits data to a server, while POST retrieves data from a server
 - c.	GET and POST methods are interchangeable
 
-- Réponse : <b>A</b>
-
+// Réponse : <b>A</b>
 
 5)	<b>What is the purpose of version control systems (e.g., Git) in web development ?</b>
 - a.	To track changes and manage collaborative development 
 - b.	To optimize website loading speed
 - c.	To handle server-side scripting
 
-- Réponse : <b>A</b>
+// Réponse : <b>A</b>
 
 6)	<b>What is the purpose of a framework in web development ?</b>
 - a.	To provide a structured environment for building web applications
 - b.	To handle network protocols and data transfer
 - c.	To create visual designs and layouts for websites
 
-- Réponse : <b>A</b>
+// Réponse : <b>A</b>
 
 7)	<b>What does NoSQL stand for ?</b>
 - a.	Not Only SQL
 - b.	Non-Structured Query Language
 - c.	New Object-Oriented Language
 
-- Réponse : <b>A</b>
+// Réponse : <b>A</b>
 
 8)	<b>Which of the following is a characteristic of NoSQL databases ?</b> 
 - a.	Strict schema enforcement
 - b.	Support for complex transactions
 - c.	Scalability and flexible data models 
 
-- Réponse : <b>C</b>
+// Réponse : <b>C</b>
