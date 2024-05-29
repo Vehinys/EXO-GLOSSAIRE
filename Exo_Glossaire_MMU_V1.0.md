@@ -61,7 +61,7 @@
 
 - Conditionnelle (if, else if, else) :
 
-    if ($a > $b) {
+-     if ($a > $b) {
        echo "a est plus grand que b";
     } elseif ($a == $b) {
        echo "a est égal à b";
@@ -71,19 +71,19 @@
 
 - Boucles (for, while, foreach) :
 
- // for
+- // for
      for ($i = 0; $i < 10; $i++) {
         echo $i;
      }
 
- // while 
+- // while 
         $i = 0;
     while ($i < 10) {
         echo $i;
         $i++;
     }
 
- // foreach
+- // foreach
     $arr = array(1, 2, 3, 4);
     foreach ($arr as $value) {
         echo $value;
