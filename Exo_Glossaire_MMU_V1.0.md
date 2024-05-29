@@ -184,7 +184,7 @@
 67.	<b>Qu’est-ce que la modélisation de données ? Définir la méthode Merise</b>
 68.	<b>Quelles sont les 3 étapes principales de la méthode Merise ? </b>
 - a. <b>Analyse, conception et réalisation</b>
-b. <b>Planification, exécution et contrôle</->
+b. <b>Planification, exécution et contrôle</-></b>
 c. <b>Création, modification et suppression</b>
 69.	<b>Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?</b>
 70.	<b>Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?</b>
