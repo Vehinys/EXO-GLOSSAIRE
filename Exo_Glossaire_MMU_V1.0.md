@@ -59,7 +59,7 @@
 
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
 
-- Conditionnelle (if, else if, else) : 
+// Conditionnelle (if, else if, else) : 
 
 - // if, Else if, else
       ($a > $b) {
@@ -70,7 +70,7 @@
          echo "a est plus petit que b";
     }
 
-- Boucles (for, while, foreach) :
+// Boucles (for, while, foreach) :
 
 - // for
      for ($i = 0; $i < 10; $i++) {
