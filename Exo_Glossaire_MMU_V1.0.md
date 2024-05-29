@@ -14,7 +14,7 @@
 
 ## Général
 
-1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte
+1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte :
 
 - Il est nécessaire d'avoir un serveur web local qui prend en charge PHP et une base de données.
 - Laragon & WampServer
@@ -37,11 +37,11 @@
 - Une constante est une valeur qui ne peut pas être modifiée.
 - Une variable peut être modifiée.
 
-6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
+6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation :
 
+-
 
-
-7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
+7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur) :
 
 - int : $a = 123;
 - float : $b = 12.34;
@@ -57,7 +57,7 @@
 - Tableaux associatifs : Pour des chaînes de caractères.
 
 
-9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
+9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles :
 
 // Conditionnelle (if, else if, else) : 
 
