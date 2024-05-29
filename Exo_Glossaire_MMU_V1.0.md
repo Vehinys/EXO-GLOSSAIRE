@@ -59,9 +59,7 @@
 
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
 
-- Conditionnelle (if, else if, else) :
-
--     if ($a > $b) {
+- Conditionnelle (if, else if, else) : if ($a > $b) {
        echo "a est plus grand que b";
     } elseif ($a == $b) {
        echo "a est égal à b";
