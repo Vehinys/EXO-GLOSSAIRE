@@ -59,7 +59,7 @@
 
 9.	<b>Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles : </b>
 
-// <b>Conditionnelle (if, else if, else) : </b>
+// <b>Conditionnelle (if, else if, else) :</b>
 
 - // if, Else if, else
       ($a > $b) {
@@ -70,7 +70,7 @@
          echo "a est plus petit que b";
     }
 
-// <b>Boucles (for, while, foreach) : </b>
+// <b>Boucles (for, while, foreach) :</b>
 
 - // for
      for ($i = 0; $i < 10; $i++) {
@@ -117,7 +117,7 @@
 
 16.	<b>Définir le contrôle de version ? Qu’est-ce que Git ? </b>
 
-
+- 
 
 17.	<b>Qu’est-ce qu’un CMS ? Citer au moins 2 exemples </b>
 
@@ -169,7 +169,13 @@
 - 
 
 28.	<b>Qu’est-ce que le templating ?</b>
+
+- 
+
 29.	<b>Qu’est-ce qu’une fonction anonyme en Javascript ?</b>
+
+- 
+
 30.	<b>Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?</b>
 31.	<b>Qu’est-ce qu’un « media query » ?</b>
 32.	<b>Qu’est-ce qu’un pseudo élément en CSS ?</b>
@@ -206,7 +212,12 @@
 
 ## Architecture 
 
-60.	<b>Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence</b>
+60.	<b>Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le serveur. 
+       Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence</b>
+
+- 
+- 
+
 61.	<b>Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern</b>
 62.	<b>Qu’est-ce que l’architecture MVC ?</b>
 63.	<b>Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?</b>
