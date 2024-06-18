@@ -31,7 +31,7 @@
 
 4.	<b>Qu’est-ce que la portée d’une variable ? </b>
 
-- 
+- C'est la zone de code où elle a été déclarée.
 
 5.	<b>Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ? </b>
 
@@ -56,7 +56,6 @@
 
 - Tableaux indexés : Pour des indices numériques.
 - Tableaux associatifs : Pour des chaînes de caractères.
-
 
 9.	<b>Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles : </b>
 
@@ -97,23 +96,24 @@
 
 11.	<b>Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP </b>
 
-
+- 
 
 12.	<b>Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP </b>
 
-
+- 
 
 13.	<b>Quelle est la différence entre les instructions « require » et « include » en PHP </b>
 
+- 
 
+14.	<b>Comment effectuer une redirection en PHP ? </b>
 
-14.	<b>omment effectuer une redirection en PHP ? </b>
-
-
+- 
 
 15.	<b>Définir la partie « front-end » et « back-end » d’une application </b>
 
-
+- "Front-end" : c'est la partie graphique et l'experience utilisateur.
+- "back-end"  : c'est la partie devellopement web coté serveur qui n'est pas visible par les utilisateurs.
 
 16.	<b>Définir le contrôle de version ? Qu’est-ce que Git ? </b>
 
@@ -121,21 +121,53 @@
 
 17.	<b>Qu’est-ce qu’un CMS ? Citer au moins 2 exemples </b>
 
+- C'est un logiciel qui permet de créer et gérer un site Web sans coder.
+- Wordpress & joomla
 
 
 
 ## Front-end
 
 18.	<b>Définir HTML</b>
+
+- 
+
 19.	<b>Définir CSS</b>
+
+- 
+
 20.	<b>Définir Javascript</b>
+
+- 
+
 21.	<b>Définir JSON. Dans quel contexte ce format est-il utilisé ? </b>
+
+- 
+
 22.	<b>Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?</b>
+
+- 
+
 23.	<b>Qu’est-ce qu’un sélecteur CSS ?</b>
+
+- 
+
 24.	<b>Quelle balise HTML permet de créer un lien hypertexte ?</b>
+
+- 
+
 25.	<b>Qu’est-ce qu’une requête AJAX ?</b>
+
+- 
+
 26.	<b>Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?</b>
+
+- 
+
 27.	<b>Définir le responsive design</b>
+
+- 
+
 28.	<b>Qu’est-ce que le templating ?</b>
 29.	<b>Qu’est-ce qu’une fonction anonyme en Javascript ?</b>
 30.	<b>Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?</b>
