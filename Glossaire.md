@@ -1,5 +1,8 @@
 # GLOSSAIRE
-
+Pour visualiser cette documentation sur VSCode 
+```
+CTRL + SHIFT + V
+```
 
 - [Général](#général)
 - [Front-end](#front-end)
@@ -40,7 +43,9 @@
 
 6.	<b>Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation : </b>
 
--
+- Les variables internes qui sont toujours disponibles, quel que soit le contexte
+- 9 Superglobale 
+- $_GET
 
 7.	<b>Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur) : </b>
 
@@ -104,11 +109,16 @@
 
 13.	<b>Quelle est la différence entre les instructions « require » et « include » en PHP </b>
 
-- 
+- require est utilisé lorsque le fichier est obligatoire pour l'application.
+- require arrête l'exécution à la ligne où l'erreur est produite.
+
+- include est utilisé lorsque le fichier n'est pas nécessaire.
+- include continue à s'exécuter malgré les erreurs.
 
 14.	<b>Comment effectuer une redirection en PHP ? </b>
 
-- 
+- header (Location : '...')
+- Créer une fonction Redirection
 
 15.	<b>Définir la partie « front-end » et « back-end » d’une application </b>
 
@@ -130,43 +140,49 @@
 
 18.	<b>Définir HTML</b>
 
-- 
+- HTML : (HyperText Markup Language) est un langage informatique utilisé pour créer des pages web. 
+  Il repose sur un système de balises permettant de formater le texte, 
+  insérer des éléments interactifs comme des images et des liens, et définir la structure d'une page web
 
 19.	<b>Définir CSS</b>
 
-- 
+-  CSS (Cascading Style Sheets en anglais, ou « feuilles de style en cascade ») permet d'appliquer 
+   des styles différents éléments selectionnés dans un document HTML.
 
 20.	<b>Définir Javascript</b>
 
-- 
+-  Javascript est un langage de programmation qui permet de créer du contenu mis à jour de façon dynamique, 
+   de contrôler le contenu multimédia, d'animer des images.
+
 
 21.	<b>Définir JSON. Dans quel contexte ce format est-il utilisé ? </b>
 
-- 
+-
 
-22.	<b>Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?</b>
-
-- 
-
-23.	<b>Qu’est-ce qu’un sélecteur CSS ?</b>
+22.	<b>Peut-on interpréter du Javascript côté serveur ? Si oui, comment ? </b>
 
 - 
 
-24.	<b>Quelle balise HTML permet de créer un lien hypertexte ?</b>
+23.	<b> Qu’est-ce qu’un sélecteur CSS ? </b>
 
-- 
+- Un sélecteur est une expression qui permet de cibler un ou plusieurs éléments HTML dans une page. 
+  Il indique au navigateur quels éléments doivent être stylisés en fonction des règles CSS associées.
 
-25.	<b>Qu’est-ce qu’une requête AJAX ?</b>
+24.	<b> Quelle balise HTML permet de créer un lien hypertexte ? </b>
+
+- < a href="adresse de redirection" > texte cliquable à afficher < /a >
+
+25.	<b> Qu’est-ce qu’une requête AJAX ? </b>
 
 - 
 
 26.	<b>Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?</b>
 
-- 
+- .nomdeclasse { déclarations CSS }
 
 27.	<b>Définir le responsive design</b>
 
-- 
+- Le responsive design est une methode qui adapte automatiquement une page web selon l'orientation et la resoltion de l'ecran utilisé.
 
 28.	<b>Qu’est-ce que le templating ?</b>
 
@@ -177,38 +193,131 @@
 - 
 
 30.	<b>Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?</b>
+
+-
+
 31.	<b>Qu’est-ce qu’un « media query » ?</b>
+
+- Les requêtes média (media queries) permettent de modifier l'apparence d'un site en fonction du type d'appareil (mobile, tablette, Pc portable,...)
+
 32.	<b>Qu’est-ce qu’un pseudo élément en CSS ?</b>
+
+- Un pseudo-élément est un mot-clé ajouté à un sélecteur qui permet de mettre en forme certaines parties de l'élément ciblé par la règle.
+
 33.	<b>Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent</b>
+
+- C'est un framework CSS gratuit et open-source.
+
+- Materialize
+- Tailwind CSS
+
+
 34.	<b>Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes</b>
+
+-
+-
 
 ## UX UI
 
 35.	<b>Quelle est la différence entre UX Design et UI Design ?</b>
+
+-
+
 36.	<b>Qu’est-ce qu’un wireframe ? </b>
+
+-
+
 37.	<b>Qu’est-ce qu’un prototype ? </b>
+
+-
+
 38.	<b>Qu’est-ce que la hiérarchie visuelle en UI Design ?</b>
+
+-
+
 39.	<b>Qu’est-ce que l’accessibilité en UX Design ? </b>
+
+-
+
 40.	<b>Qu’est-ce qu’une grille de mise en page ?</b>
+
+-
+
 41.	<b>Qu’est-ce que la notion d’affordance en UX Design ?</b>
+
+-
+
 42.	<b>Qu’est-ce qu’un « mobile first design » ?</b>
+
+- C'est la création dun projet web / web mobile qu'on commence par moble puis par ordinateur.
+
 43.	<b>Donner une définition de la programmation orientée objet </b>
+
+- 
+
 44.	<b>Qu’est-ce qu’une classe ? Comment la déclare-t-on ?</b>
+
+-
+
 45.	<b>Qu’est-ce qu’un objet ?</b>
+
+-
+
 46.	<b>Définir la notion de propriété / attribut / méthode</b>
+
+-
+
 47.	<b>Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité</b>
+
+-
+
 48.	<b>Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?</b>
+-
+
 49.	<b>Qu’est-ce que l’encapsulation ?</b>
+
+-
+
 50.	<b>Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple</b>
+
+-
+
 51.	<b>Définir l’opérateur de résolution de portée</b>
+
+-
+
 52.	<b>Définir une méthode / propriété statique</b>
+
+-
+
 53.	<b>Définir le polymorphisme en POO</b>
+
+-
+
 54.	<b>Définir une méthode / classe abstraite ?</b>
+
+-
+
 55.	<b>Définir le chaînage de méthodes</b>
+
+-
+
 56.	<b>Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »</b>
+
+-
+
 57.	<b>Qu’est-ce qu’un « autoload » ?</b>
+
+-
+
 58.	<b>Comment appelle-t-on en français les « getters » et les « setters » ?</b>
+
+-
+
 59.	<b>Qu’est-ce que la sérialisation en PHP ? </b>
+
+-
+
 
 ## Architecture 
 
@@ -219,11 +328,33 @@
 - 
 
 61.	<b>Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern</b>
+
+-
+
+-
+-
+-
+
 62.	<b>Qu’est-ce que l’architecture MVC ?</b>
+
+-
+
 63.	<b>Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?</b>
+
+-
+
 64.	<b>Quels sont les avantages de l’architecture MVC ?</b>
+
+-
+
 65.	<b>Existe-t-il des variantes à l’architecture MVC ?</b>
+
+-
+
 66.	<b>Qu’est-ce qu’une API ? Définir l’architecture REST</b>
+
+-
+
 
 ## Modélisation - Base de données
 
