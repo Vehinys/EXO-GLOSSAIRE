@@ -101,11 +101,14 @@ CTRL + SHIFT + V
 
 11.	<b>Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP </b>
 
-- 
+- Une session est un moyen de stocker des informations sur l'utilisateur à travers plusieurs pages d'un site web, 
+  et la fonction pour démarrer une session en PHP est session_start(), par exemple, 
+  on peut démarrer une session et définir une variable de session avec session_start(); $_SESSION["username"] = "JohnDoe";.
 
 12.	<b>Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP </b>
 
-- 
+- Un cookie est un petit fichier stocké sur l'ordinateur de l'utilisateur par un site web pour mémoriser des informations entre les sessions,
+  on peut créer un cookie avec setcookie("user", "John Doe", time() + (86400 * 30), "/") et le lire avec $_COOKIE["user"].
 
 13.	<b>Quelle est la différence entre les instructions « require » et « include » en PHP </b>
 
@@ -127,7 +130,8 @@ CTRL + SHIFT + V
 
 16.	<b>Définir le contrôle de version ? Qu’est-ce que Git ? </b>
 
-- 
+- Le contrôle de version est un système qui permet de suivre et gérer les modifications apportées aux fichiers au fil du temps, 
+  et Git est un outil distribué de contrôle de version qui facilite la collaboration et la gestion efficace des versions de projets logiciels.
 
 17.	<b>Qu’est-ce qu’un CMS ? Citer au moins 2 exemples </b>
 
@@ -174,7 +178,9 @@ CTRL + SHIFT + V
 
 25.	<b> Qu’est-ce qu’une requête AJAX ? </b>
 
-- 
+- Une requête AJAX (Asynchronous JavaScript and XML) est une technique permettant à une page web 
+  de communiquer avec un serveur en arrière-plan et de mettre à jour dynamiquement son contenu 
+  sans nécessiter de rechargement complet de la page.
 
 26.	<b>Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?</b>
 
