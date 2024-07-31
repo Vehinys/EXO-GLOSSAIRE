@@ -365,167 +365,473 @@ CTRL + SHIFT + V
 ## Modélisation - Base de données
 
 67.	<b>Qu’est-ce que la modélisation de données ? Définir la méthode Merise</b>
+
 68.	<b>Quelles sont les 3 étapes principales de la méthode Merise ? </b>
 - a. <b>Analyse, conception et réalisation</b>
-- b. <b>Planification, exécution et contrôle</-></b>
+- b. <b>Planification, exécution et contrôle</b>
 - c. <b>Création, modification et suppression</b>
 69.	<b>Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?</b>
+
+- Le Modèle Conceptuel de Données (MCD) est une représentation abstraite des données nécessaires au système d'information, 
+  décrivant les entités, leurs attributs, et les relations entre elles, indépendamment des contraintes techniques.
+
 70.	<b>Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?</b>
+
+- Le Modèle Logique de Données (MLD) est une représentation détaillée et structurée des données qui précise 
+  les tables, les colonnes, et les clés nécessaires pour implémenter le Modèle Conceptuel de Données (MCD) 
+  dans un système de gestion de base de données relationnelle, tout en tenant compte des contraintes logiques et de la normalisation.
+
 71.	<b>Donner la définition des mots suivants :</b>
+
 - a. <b>Entité</b>
+
+-
+
 - b. <b>Relation</b>
+
+-
+
 - c. <b>Cardinalité</b>
+
+-
+
 - d. <b>Clé primaire / clé étrangère</b>
+
+-
+
 72.	<b>Que devient une relation de type « Many To Many » dans le modèle logique de données ?</b>
+
+-
+
 73.	<b>Qu’est-ce qu’une base de données ?</b>
+
+-
+
 74.	<b>Définir les notions suivantes : </b>
+
+-
+
 - a. <b>SQL :</b>
+
+-
+
 - b. <b>MySQL :</b>
+
+-
+
 - c. <b>SGBD (donner 2 exemples de SGBD) :</b>
+
+-
+
 75.	<b>Dans une base de données, les données sont stockées dans des ___. Celles-ci sont constituées de lignes appelées ___ et de colonnes appelées ___</b>
+
+-
+
 76.	<b>Quelle est la différence entre une base de données relationnelle et non relationnelle ?</b>
+
+-
+
 77.	<b>Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?</b>
+
+-
+
 78.	<b>A quoi sert une vue dans une base de données ?</b>
+
+-
+
 79.	<b>Qu’est-ce que l’intégrité référentielle dans une base de données ?</b>
+
+-
+
 80.	<b>Quelles sont les fonctions d’agrégation en SQL ?</b>
+
+-
+
 81.	<b>Qu’est-ce qu’un CRUD dans le contexte d’une base de données ?</b>
+
+-
+
 82.	<b>Quelles sont les clauses qui permettent de :</b>
+
 - a. <b>Insérer un nouvel enregistrement dans une table :</b>
+
+- On utilise la commande INSERT INTO
+
 - b. <b>Modifier un enregistrement dans une table :</b>
+
+- On utilise la commande UPDATE
+
 - c. <b>Supprimer un enregistrement dans une table :</b>
+
+- On utilise la commande DELETE
+
 - d. <b>Supprimer la base de données :</b>
+
+- On utilise la commande DROP DATABASE
+
 - e. <b>Filtrer les résultats d’une requête SQL :</b>
+
+- On utilise la clause WHERE
+
 - f. <b>Trier les résultats d’une requête SELECT :</b>
+
+- On utilise la clause ORDER BY
+
 - g. <b>Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique :</b>
+
+- On utilise la clause GROUP BY
+
 - h. <b>Concaténer 2 chaînes de caractères :</b>
+
+- SELECT CONCAT(nom, prenom) AS ensembleNomPrenom
+
 83.	<b>Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?</b>
+
+- En utilisant Laragon, pour se connecter à une base de données en PHP, j'utilise la classe native PDO (PHP Data Objects) 
+  en definisant dans mon ficher DAO les informations suivantes : 
+
+  $host = 'localhost';
+  $username = 'nom_utilisateur';
+  $password = 'mot_de_passe';
+  $database = 'nom_de_la_base_de_donnees';
 
 ## Symfony
 
 84.	<b>Qu’est-ce que Symfony ?</b>
+
+-
+
 85.	<b>Sur quel langage de programmation et design pattern repose Symfony ? </b>
+
+-
+
 86.	<b>Quelle est la dernière version en date de Symfony ?</b>
+
+- La dernière version de Symfony, en date de juillet 2024, est la version 7.1.3​
+
 87.	<b>Qu’est-ce qu’un bundle ? </b>
+
+-
+
 88.	<b>Quel est le moteur de template utilisé par défaut dans Symfony ?</b>
+
+-
+
 89.	<b>Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?</b>
+
+-
+
 90.	<b>Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier contient l’intégralité des dépendances du projet ?</b>
+
+-
+
 91.	<b>Que permet le bundle Maker au sein de Symfony ? </b>
+
+-
+
 92.	<b>Quel est le langage de requêtage exploité au sein d’un projet Symfony ?</b>
+
+-
+
 93.	<b>Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?</b>
+
+-
+
 
 ## Sécurité
 
 94.	<b>Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?</b>
+
+- L'injection SQL est une attaque où un pirate envoie des commandes malveillantes à une base de données à travers des formulaires ou des champs de saisie sur un site web. 
+  Cela peut  leur permettre de voler des informations ou d'altérer la base de données.
+
+- Vérifier et nettoyer toutes les données que les utilisateurs entrent dans les formulaires, autant côté serveur que côté client.
+
+
 95.	<b>Qu’est-ce que la faille XSS ? Comment s’en prémunir ?</b>
+
+- Cross-site scripting (XSS) est une faille de sécurité qui permet à un attaquant d'injecter dans un site web un code client malveillant. 
+  Ce code est exécuté par les victimes et permet aux attaquants de contourner les contrôles d'accès et d'usurper l'identité des utilisateurs. 
+
+- L’encodage (ou échappement) des données en entrée ou en sortie reste la mesure de sécurité essentielle pour prévenir les attaques XSS
+
 96.	<b>Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?</b>
+
+- CSRF (Cross-Site Request Forgery) est une attaque qui usurpe l'identité d'un utilisateur de confiance et envoie des commandes non désirées sur un site web.
+
+  Pour se protéger des attaques CSRF, il existe la classique solution du token anti-CSRF
+
 97.	<b>Définir l’attaque par force brute et l’attaque par dictionnaire</b>
+
+- Attaque par force brute : C'est une méthode où l'attaquant essaie toutes les combinaisons possibles de mots de passe ou de clés 
+ de chiffrement jusqu'à trouver la bonne.
+
+- Attaque par dictionnaire : C'est une technique où l'attaquant utilise une liste précompilée de mots de passe courants ou de phrases 
+  fréquemment utilisées pour deviner le mot de passe ou la clé de chiffrement.
+
 98.	<b>Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement</b>
+
+- File Inclusion : Permet à un attaquant d'inclure des fichiers malveillants dans l'application via des chemins de fichiers manipulés, 
+  conduisant potentiellement à l'exécution de code ou à l'accès non autorisé à des fichiers sensibles.
+
+- DoS/DDoS : Vise à rendre un service ou une application inaccessible en surchargeant le serveur avec un grand nombre de requêtes ou de trafic.
+
+- Session Hijacking : Permet à un attaquant de voler un jeton de session valide pour se faire passer pour un utilisateur légitime et accéder à ses données ou ses privilèges.
+
+- Clickjacking : Manipule les utilisateurs en les incitant à cliquer sur des éléments invisibles ou déguisés, ce qui peut déclencher des actions non désirées sur une autre page.
+
+- Security Misconfiguration : Résulte d'une mauvaise configuration des systèmes et applications, exposant ainsi des données sensibles ou des fonctionnalités non sécurisées.
+
+- Software Vulnerabilities : Exploite des bugs ou des failles dans des logiciels pour obtenir un accès non autorisé ou exécuter du code malveillant.
+
 99.	<b>A quoi servent l’authentification et l’autorisation dans un contexte d’application web ?</b>
+
+- L'authentification vérifie l'identité d'un utilisateur, assurant qu'il est bien celui qu'il prétend être. 
+
+- L'autorisation détermine les actions et ressources auxquelles cet utilisateur authentifié peut accéder, en fonction de ses permissions.
+
 100. <b>Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage</b>
+
+- Le hachage d'un mot de passe consiste à transformer le mot de passe en une suite de caractères uniques et incompréhensibles. 
+  Les algorithmes de hachage courants incluent MD5, SHA-256, et bcrypt.
+
 101. <b>Qu’est-ce qu’une politique de mots de passe forts ?</b>
+
+- Une politique de mots de passe forts est un ensemble de règles qui visent à rendre les mots de passe difficiles à deviner. 
+  Ces règles incluent généralement une longueur minimale, l'utilisation de majuscules, de minuscules, de chiffres et de caractères spéciaux, 
+  et l'interdiction de mots de passe courants ou simples.
+
 102. <b>Qu’est-ce que l’hameçonnage ?</b>
+
+- L’hameçonnage est une technique utilisée par les pirates pour obtenir des informations sensibles 
+  en se faisant passer pour une entité de confiance via des emails, des messages ou des sites web frauduleux.
+
 103. <b>Définir la « validation des entrées »</b>
+
+- C'est le processus de vérification des données que les utilisateurs envoient à un site web ou une application pour s'assurer 
+  qu'elles sont correctes et sûres avant de les utiliser ou de les stocker. Cela aide à éviter les erreurs ou les attaques.
+
 
 ## RGPD
 
 104. <b>Qu’est-ce que le RGPD ?</b>
+
+- Le RGPD (Règlement Général sur la Protection des Données) est une réglementation visant à protéger les données personnelles 
+  des citoyens de l'UE et à harmoniser les lois sur la protection des données à travers l'Europe.
+
 105. <b>Quel est son objectif principal ?</b>
+
+- L'objectif principal du RGPD est de protéger les données personnelles des citoyens de l'Union Européenne en renforçant leurs droits à la vie privée 
+  et en harmonisant les lois sur la protection des données à travers l'Europe.
+
 106. <b>Quelle est la date d’entrée en vigueur du RGPD ?</b>
+
+-  Elle est une réglementation européenne entrée en vigueur depuis le 25 mai 2018
+
 107. <b>Quelles sont les sanctions possibles en cas de non-respect du RGPD ?</b>
+
+- En cas de non-respect du RGPD, les sanctions possibles incluent des amendes pouvant aller jusqu'à 20 millions d'euros 
+  ou 4 % du chiffre d'affaires annuel mondial de l'entreprise, le montant le plus élevé étant retenu.
+
 108. <b>En France, quel est l’autorité administrative qui s’occupe de faire appliquer le RGPD ?</b>
+
+-
+
 109. <b>Quel est le consentement valide selon le RPGD ?</b>
+
+-
+
 110. <b>Qu’est-ce qu’une politique de confidentialité ?</b>
+
+-
+
 111. <b>Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?</b>
+
+-
+
 112. <b>Quels sont les droits des utilisateurs selon le RGPD ?</b>
+
+-
+
 113. <b>Qu’est-ce que le principe de minimisation des données selon le RGPD ?</b>
+
+-
+
 
 ## SEO
 
 114. <b>Qu’est-ce que le SEO ? </b>
+
+-
+
 115. <b>Quel est l’objectif principal du SEO ?</b>
+
+-
+
 116. <b>Existe-t-il plusieurs types de référencement ? Lesquels ?</b>
+
+-
+
 117. <b>Qu’est-ce que la densité de mots-clés en SEO ?</b>
+
+-
+
 118. <b>Qu’est-ce qu’une balise « alt » ?</b>
+
+-
+
 119. <b>Qu’est-ce que la balise « meta description » ?</b>
+
+-
+
 120. <b>Qu’est-ce que le « nofollow » en SEO ?</b>
+
+-
+
 121. <b>Quelle est l'importance du contenu de qualité pour le référencement d'un site web ?</b>
+
+-
+
 122. <b>Pourquoi est-il important d'utiliser des balises de titre (h1, h2, h3, etc.) de manière structurée ?</b>
+
+-
+
 123. <b>Quelle est la recommandation pour les URL d'un site web bien référencé ?</b>
+
+-
+
 124. <b>Qu'est-ce que le maillage interne et pourquoi est-il important pour le référencement ?</b>
+
+-
+
 125. <b>Qu'est-ce que l'optimisation des images pour le référencement ?</b>
+
+-
+
 126. <b>Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?</b>
+
+-
+
 
 ## Gestion de projets - DevOps
 
 127. <b>Qu’est-ce que la gestion de projet ? </b>
+
+-
+
 128. <b>Qu’est-ce qu’une méthode Agile de gestion de projet ? </b>
+
+-
+
 129. <b>Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages</b>
+
+-
+
 130. <b>A quoi sert la méthodologie MVP ? Citer les caractéristiques clés</b>
+
+-
+
 131. <b>Qu’est-ce que la planification itérative ?</b>
+
+-
+
 132. <b>Citer 3 méthodes Agiles dans le cadre d’un projet informatique</b>
+
+-
+
 133. <b>Qu’est-ce qu’une réunion de revue de projet ?</b>
+
+-
+
 134. <b>Qu’est-ce qu’un livrable dans un projet ? </b>
+
+-
+
 135. <b>Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux</b>
+
+-
+
 136. <b>Qu’est-ce que le DevOps et quel est son objectif principal ?</b>
+
+-
+
 137. <b>Qu’est-ce que l’intégration continue ? </b>
+
+-
+
 138. <b>Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?</b>
+
+-
+
 139. <b>Qu’est-ce qu’un test unitaire ? </b>
+
+-
+
 140. <b>Quelle est l'unité de code testée lors d'un test unitaire ?</b>
+
+-
+
 141. <b>Quelles sont les caractéristiques d'un bon test unitaire ?</b>
+
+-
+
 142. <b>Qu'est-ce qu'une assertion dans un test unitaire ?</b>
+
+-
+
  
 ## English
 
-1)	<b> What does JavaScript enable you to do on a website ?</b> 
+143.	<b> What does JavaScript enable you to do on a website ?</b> 
 - a.	Add interactive behavior and dynamic content 
 - b.	Define the layout and design of web pages
 - c.	Handle server-side operations
 
 // Réponse : <b>A</b>
 
-2)	<b>Which programming language is primarily used for server-side web development ?</b>
+144.	<b>Which programming language is primarily used for server-side web development ?</b>
 - a.	PHP 
 - b.	JavaScript
 - c.	HTML
 
 // Réponse : <b>A</b>
 
-3)	<b>What is the purpose of a web browser ?</b>
+145.	<b>What is the purpose of a web browser ?</b>
 - a.	To render and display web pages
 - b.	To execute serve-side code
 - c.	To manage databases
 
 // Réponse : <b>A</b>
 
-4)	<b>What is the difference between GET and POST methods in HTTP ?</b>
+145.	<b>What is the difference between GET and POST methods in HTTP ?</b>
 - a.	GET retrieves data from a server, while POST submits data to a server  
 - b.	GET submits data to a server, while POST retrieves data from a server
 - c.	GET and POST methods are interchangeable
 
 // Réponse : <b>A</b>
 
-5)	<b>What is the purpose of version control systems (e.g., Git) in web development ?</b>
+146.	<b>What is the purpose of version control systems (e.g., Git) in web development ?</b>
 - a.	To track changes and manage collaborative development 
 - b.	To optimize website loading speed
 - c.	To handle server-side scripting
 
 // Réponse : <b>A</b>
 
-6)	<b>What is the purpose of a framework in web development ?</b>
+147.	<b>What is the purpose of a framework in web development ?</b>
 - a.	To provide a structured environment for building web applications
 - b.	To handle network protocols and data transfer
 - c.	To create visual designs and layouts for websites
 
 // Réponse : <b>A</b>
 
-7)	<b>What does NoSQL stand for ?</b>
+148.	<b>What does NoSQL stand for ?</b>
 - a.	Not Only SQL
 - b.	Non-Structured Query Language
 - c.	New Object-Oriented Language
 
 // Réponse : <b>A</b>
 
-8)	<b>Which of the following is a characteristic of NoSQL databases ?</b> 
+149.	<b>Which of the following is a characteristic of NoSQL databases ?</b> 
 - a.	Strict schema enforcement
 - b.	Support for complex transactions
 - c.	Scalability and flexible data models 
